@@ -22,13 +22,13 @@ import retr0.bedrockwaters.WaterPropertiesReplacer;
 @Mixin(BackgroundRenderer.class)
 public abstract class BackgroundRendererMixin {
     // TODO: MOVE THESE TO BIOME PROPERTIES?
-    private static final float DEFAULT_FOG_DISTANCE            = 30;
-    private static final float SWAMP_BIOME_FOG_DISTANCE        = 15;
-    private static final float RIVER_BIOME_FOG_DISTANCE        = 60;
-    private static final float FROZEN_RIVER_BIOME_FOG_DISTANCE = 50;
-    private static final float BEACH_BIOME_FOG_DISTANCE        = 60;
-    private static final float SNOWY_BEACH_BIOME_FOG_DISTANCE  = 50;
-    private static final float OCEAN_BIOME_FOG_DISTANCE        = 60;
+    private static final float DEFAULT_FOG_DISTANCE            = 45;
+    private static final float SWAMP_BIOME_FOG_DISTANCE        = 30;
+    private static final float RIVER_BIOME_FOG_DISTANCE        = 50;
+    private static final float FROZEN_RIVER_BIOME_FOG_DISTANCE = 60;
+    private static final float BEACH_BIOME_FOG_DISTANCE        = 50;
+    private static final float SNOWY_BEACH_BIOME_FOG_DISTANCE  = 60;
+    private static final float OCEAN_BIOME_FOG_DISTANCE        = 50;
 
     // Five seconds seems like a reasonable underwater fog color transition time.
     private static final float TRANSITION_TIME_MS = 5000.0f;
